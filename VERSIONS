@@ -1,0 +1,18 @@
+v1.2:
+------
+
++ eliminados warnings de __copy_to_user()
++ añadido new_idt (nuevo handler) y eliminado handler antiguo
++ cambiado read_activo a atomic_t
++ envio de peticion shell tcp terminado
++ reverse_shell via tcp terminada
++ hacked_tcp4_seq_show() injectada
++ nuevo sistema de ocultacion de conexion, a traves
+  de sys_read eliminado
++ añadida hacked_getdents complementando a hacked_getdents64
++ do_fork() eliminado, ahora se usa fork()
++ se bloquean todas las señales en el manejador de la conexion
++ sysenter_entry obtenido a traves rdmsr() cuando sea posible,
+  en vez de /proc/kallsyms
++ se oculta el modulo a '/sys/module' con kobject_unregister()
+
