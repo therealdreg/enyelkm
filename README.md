@@ -147,9 +147,9 @@ The TCP  trigger completes the normal TCP three way handshake on the chosen port
 
 Packet dumps of both triggering mechanisms can be found at the links below.  They are in pcap format and can be examined using Wireshark.
 
-http://www.williamsworx.com/wiki/pub/Linux/EnyeLKM/tcpTrigger.pcap
-http://www.williamsworx.com/wiki/pub/Linux/EnyeLKM/icmpTrigger.pcap
-http://www.williamsworx.com/wiki/pub/Linux/EnyeLKM/icmpTwoTriggers.pcap
+* http://www.williamsworx.com/wiki/pub/Linux/EnyeLKM/tcpTrigger.pcap
+* http://www.williamsworx.com/wiki/pub/Linux/EnyeLKM/icmpTrigger.pcap
+* http://www.williamsworx.com/wiki/pub/Linux/EnyeLKM/icmpTwoTriggers.pcap
 
 If your system has /proc/kcore enabled (Fedora kernels usually do not) you can use gdb to disassemble the sysenter_entry.  A normal sysenter routine won't jump soon after it is called, but that's exactly what happens with EnyeLKM installed:
 
