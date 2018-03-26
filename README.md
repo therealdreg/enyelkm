@@ -170,3 +170,7 @@ The EnyeLKM rootkit insmod command is installed into /etc/rc.d/rc.sysinit or in 
 Note that this method will not work if the insmod command for the rootkit is placed in some other location (such as another startup script or binary).
 
 Once the system reboots without installing rootkit module, a thorough investigation of running processes and network connections should be performed.  Hackers will often install more than one backdoor on a system to maintain persistence.
+
+## Referenced by
+
+* Design and Implementation of a Virtual Machine Introspection based Intrusion Detection System  - Thomas Kittel:  https://pdfs.semanticscholar.org/d48a/dbea94a5e2bc108b274f3176db9d5024af15.pdf
