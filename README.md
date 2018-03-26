@@ -174,3 +174,4 @@ Once the system reboots without installing rootkit module, a thorough investigat
 ## Referenced by
 
 * Design and Implementation of a Virtual Machine Introspection based Intrusion Detection System  - Thomas Kittel:  https://pdfs.semanticscholar.org/d48a/dbea94a5e2bc108b274f3176db9d5024af15.pdf
+* Full Virtual Machine State Reconstruction for Security Applications - Christian A. Schneider: http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=DDA289985A5B66223310A012971CAD3E?doi=10.1.1.722.9243&rep=rep1&type=pdf
