@@ -1,6 +1,8 @@
 # enyelkm
 LKM rootkit for Linux x86 with the 2.6 kernel. It inserts salts inside system_call and sysenter_entry.
 
+Please, consider make a donation: https://github.com/sponsors/therealdreg
+
 ## EnyeLKM Overview 
 
 Written by Jacob Williams - 2008, thx for your presentation!
